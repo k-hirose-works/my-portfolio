@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', 'Noto Sans JP', sans-serif;
+  --font-serif: 'Playfair Display', 'Noto Serif JP', serif;
+  --font-signature: 'Pinyon Script', 'Great Vibes', cursive;
+  --color-primary: #ffffff;
+  --color-dark-bg: #050505;
+}
+
+@layer base {
+  body {
+    @apply bg-neutral-950 text-neutral-100 font-sans antialiased selection:bg-neutral-800 selection:text-white;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif;
+  }
+}
