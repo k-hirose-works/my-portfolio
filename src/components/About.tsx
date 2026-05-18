@@ -47,7 +47,7 @@ export const About: React.FC = () => {
               </p>
               {/* 経歴（小） */}
               <p className="text-sm md:text-base font-light leading-relaxed text-gray-300 tracking-wide">
-                2011年より テレビ CM WEB サイネージなど <br className="hidden md:inline" />様々な領域の映像制作に従事してきました
+                2013年より テレビ CM WEB サイネージなど <br className="hidden md:inline" />様々な領域の映像制作に従事してきました
                 <br /><br />
                 現在はフリーランスのディレクター・エディターとして <br className="hidden md:inline" />動画コンテンツの演出・編集を主軸に活動しています
               </p>
